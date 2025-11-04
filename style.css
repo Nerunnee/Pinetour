@@ -275,8 +275,8 @@
 
 .map-pin3 {
   position: absolute;
-  top: 172px;
-  left: 485px;
+  top: 181px;
+  left: 492px;
 }
 
 .map-pin4 {
@@ -422,7 +422,9 @@
 }
 
 .footer-end-padding {
-  margin: 265px 120px 80px;
+  height: 44px;
+  width: 1440px;
+  padding: 265px 120px 80px;
 }
 
 .picture {
@@ -437,8 +439,8 @@
 .SBP:hover + .sukhbaatar {
   display: block;
   position: absolute;
-  top: 65px;
-  left: 916px;
+  top: 74px;
+  left: 924px;
 }
 
 .border:hover {
@@ -448,28 +450,37 @@
 .SBP1:hover + .sukhbaatar {
   display: block;
   position: absolute;
-  top: -46px;
-  left: 716px;
+  top: -38px;
+  left: 726px;
 }
 
 .SBP2:hover + .sukhbaatar {
   display: block;
   position: absolute;
-  top: 82px;
-  left: 583px;
+  top: 88px;
+  left: 590px;
 }
 
 .SBP3:hover + .sukhbaatar {
   display: block;
   position: absolute;
-  top: -82px;
-  left: 532px;
+  top: -85px;
+  left: 553px;
 }
 
 .SBP4:hover + .sukhbaatar {
   display: block;
   position: absolute;
-  top: -80px;
-  left: 699px;
+  top: -70px;
+  left: 711px;
+}
+
+.package-card:hover {
+  box-shadow: 8px 8px 0px 0px #29728b40, -8px -8px 0px 0px #2e414766;
+}
+
+.select-package:hover {
+  background-color: var(--background-bg-primary-90, #18181be5);
+  color: var(--text-text-primary-foreground, #fafafa);
 }
 /*  */
