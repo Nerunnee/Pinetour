@@ -6,7 +6,7 @@
 
 .section {
   height: 100vh;
-  width: 100vw;
+  width: 1440px;
 }
 
 .hero-image {
@@ -156,10 +156,6 @@
   border-radius: 40px;
 }
 
-overlay1:hover {
-  border-color: white;
-}
-
 .card-img1 {
   background-image: url(./1.png);
 }
@@ -178,9 +174,9 @@ overlay1:hover {
 
 .road-map {
   height: 902px;
+  width: 1440px;
   background-image: url(./Roadmap\ image.png);
   background-size: cover;
-  position: relative;
 }
 
 .rm-header {
@@ -251,6 +247,7 @@ overlay1:hover {
   height: 640px;
   width: 1200px;
   margin: 59px 120px 0;
+  position: relative;
 }
 
 .map-pin {
@@ -278,8 +275,8 @@ overlay1:hover {
 
 .map-pin3 {
   position: absolute;
-  top: 181px;
-  left: 492px;
+  top: 172px;
+  left: 485px;
 }
 
 .map-pin4 {
@@ -298,6 +295,7 @@ overlay1:hover {
 
 .tap {
   height: 120px;
+  width: 1440px;
   background-image: url(./Location\ image.png);
 }
 
@@ -427,6 +425,11 @@ overlay1:hover {
   margin: 265px 120px 80px;
 }
 
+.picture {
+  width: 245px;
+  height: 245px;
+}
+
 .sukhbaatar {
   display: none;
 }
@@ -434,6 +437,10 @@ overlay1:hover {
 .SBP:hover + .sukhbaatar {
   display: block;
   position: absolute;
-  top: 327px;
-  left: 1031px;
+  top: 65px;
+  left: 916px;
+}
+
+.border:hover {
+  border: white solid 4px;
 }
