@@ -504,8 +504,8 @@
   box-shadow: 8px 8px 0px 0px #29728b40, -8px -8px 0px 0px #2e414766;
 }
 
-.select-package:hover {
-  background-color: var(--background-bg-primary-90, #18181be5);
-  color: var(--text-text-primary-foreground, #fafafa);
+.package-card:hover .select-package {
+  background-color: #18181be5;
+  color: white;
 }
 /*  */
