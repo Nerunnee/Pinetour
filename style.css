@@ -10,7 +10,7 @@
 }
 
 .hero-image {
-  background-image: url(./HeroImage.png);
+  background-image: url(./Image/HeroImage.png);
   background-size: cover;
   background-position: center;
 }
@@ -127,7 +127,7 @@
 .location-image {
   height: 500px;
   padding: 65px 109.02px;
-  background-image: url(./Location\ image.png);
+  background-image: url(./Image/Location\ image.png);
 }
 
 .card {
@@ -157,25 +157,25 @@
 }
 
 .card-img1 {
-  background-image: url(./1.png);
+  background-image: url(./Image/1.png);
 }
 
 .card-img2 {
-  background-image: url(./2.png);
+  background-image: url(./Image/2.png);
 }
 
 .card-img3 {
-  background-image: url(./3.png);
+  background-image: url(./Image/3.png);
 }
 
 .card-img4 {
-  background-image: url(./4.png);
+  background-image: url(./Image/4.png);
 }
 
 .road-map {
   height: 902px;
   width: 1440px;
-  background-image: url(./Roadmap\ image.png);
+  background-image: url(./Image/Roadmap\ image.png);
   background-size: cover;
 }
 
@@ -301,12 +301,12 @@
 .tap {
   height: 120px;
   width: 1440px;
-  background-image: url(./Location\ image.png);
+  background-image: url(./Image/Location\ image.png);
 }
 
 .footer {
   height: 1120px;
-  background-image: url(./Price&Footer\ image.png);
+  background-image: url(./Image/Price&Footer\ image.png);
   background-position: center;
   background-size: cover;
 }
